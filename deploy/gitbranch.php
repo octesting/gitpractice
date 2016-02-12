@@ -10,7 +10,7 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
-		'git branch'
+		'git branch '.$_GET["branch"]
 		/*,
 		'git submodule sync',
 		'git submodule update',
